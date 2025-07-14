@@ -1,0 +1,59 @@
+.App {
+  text-align: center;
+  min-height: 150px;
+
+  font-family: Arial, sans-serif;
+  padding: 20px;
+
+  /* Optional: center vertically and horizontally */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  width: 1170px;
+  margin: auto;
+  display: flex;
+  gap: 20px;
+}
+form input {
+ height: 40px;
+ flex-basis:80%;
+}
+form button{
+  flex-basis: 20%;;
+}
+.outerdiv{
+   width: 1170px;
+  margin: auto;
+}
+.outerdiv ul{
+  margin: 0px;
+  margin-top: 50px;
+  padding: 0px;
+  list-style: none;
+}
+.outerdiv ul li {
+  color: white;
+  background-color: #020a13;
+  position: relative;
+  margin-bottom: 20px;
+  font-size: 25px;
+  padding: 10px;
+  text-align: left;
+}
+.outerdiv ul li span {
+  position: absolute;
+  right: 10px;
+  
+  color: #ff0000;
+  cursor: pointer;
+
+}
+.completed {
+  color: #00ff00;
+  text-decoration: line-through;
+  background-color: aqua !important;
+}
